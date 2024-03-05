@@ -1,0 +1,307 @@
+
+
+/*
+import { Navbar as BootstrapNavbar,Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import React from 'react';
+function CustomNavbar() {
+  return (
+    <>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <BootstrapNavbar collapseOnSelect expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
+      <Navbar className="bg-body-tertiary">
+        <Container fluid>
+          
+ <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+
+
+
+
+
+       
+        <Container fluid>
+      <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+      <Navbar.Toggle aria-controls="navbarScroll" />
+      <Navbar.Collapse id="navbarScroll">
+        <Nav
+          className="me-auto my-2 my-lg-0"
+          style={{ maxHeight: '100px' }}
+          navbarScroll
+        >
+          {/* Your Nav Links Here
+        </Nav>
+      </Navbar.Collapse>
+    </Container>
+
+
+
+
+
+
+
+
+
+
+
+          <Navbar.Brand href="#home">
+            <img
+              src="/img/logo.svg"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            />
+          </Navbar.Brand>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+        <Container>
+          <BootstrapNavbar.Brand href="#home">Navbar</BootstrapNavbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+       
+        </Container>
+      </BootstrapNavbar>
+      <br />
+      <BootstrapNavbar bg="primary" data-bs-theme="dark">
+        <Container>
+          <BootstrapNavbar.Brand href="#home">Navbar</BootstrapNavbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </BootstrapNavbar>
+
+      <br />
+      <BootstrapNavbar bg="light" data-bs-theme="light">
+        <Container>
+          <BootstrapNavbar.Brand href="#home">Navbar</BootstrapNavbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+          
+        </Container>
+      </BootstrapNavbar>
+
+
+
+
+
+
+
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container fluid>
+        <Navbar.Brand href="#">
+          <img
+            src="/img/logo.svg"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          />
+          React-Bootstrap
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+
+
+
+
+
+{/* <BootstrapNavbar collapseOnSelect expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark"> 
+     
+
+
+
+
+
+    </>
+  );
+}
+
+export default CustomNavbar;
+/*
+
+<Navbar className="bg-body-tertiary">
+        <Container fluid>    
+ <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+        <Container fluid>
+      <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+      <Navbar.Toggle aria-controls="navbarScroll" />
+      <Navbar.Collapse id="navbarScroll">
+        <Nav
+          className="me-auto my-2 my-lg-0"
+          style={{ maxHeight: '100px' }}
+          navbarScroll
+        >
+          Your Nav Links Here 
+        </Nav>
+      </Navbar.Collapse>
+    </Container>
+   <Navbar.Brand href="#home">
+            <img
+              src="/img/logo.svg"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            />
+          </Navbar.Brand>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+        <Container>
+          <BootstrapNavbar.Brand href="#home">Navbar</BootstrapNavbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+       
+        </Container>
+      </BootstrapNavbar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+/*
+
+
+import React, { useState } from 'react';
+import { Button, Navbar as BootstrapNavbar, Container, Nav } from 'react-bootstrap';
+
+function CustomNavbar() {
+  const [theme, setTheme] = useState('light');
+
+  const changeTheme = (newTheme) => {
+    setTheme(newTheme);
+  };
+
+  return (
+    <>
+      <Button variant="primary" onClick={() => changeTheme('light')}>Light Theme</Button>{' '}
+      <Button variant="secondary" onClick={() => changeTheme('dark')}>Dark Theme</Button>{' '}
+      <Button variant="success" onClick={() => changeTheme('primary')}>Primary Theme</Button>{' '}
+      <Button variant="warning" onClick={() => changeTheme('secondary')}>Secondary Theme</Button>{' '}
+      <Button variant="danger" onClick={() => changeTheme('success')}>Success Theme</Button>{' '}
+      <Button variant="info" onClick={() => changeTheme('warning')}>Warning Theme</Button>{' '}
+      <Button variant="light" onClick={() => changeTheme('danger')}>Danger Theme</Button>{' '}
+      <Button variant="dark" onClick={() => changeTheme('info')}>Info Theme</Button>{' '}
+
+      <BootstrapNavbar bg={theme} variant={theme} data-bs-theme={theme}>
+        <Container>
+          <BootstrapNavbar.Brand href="#home">Navbar</BootstrapNavbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </BootstrapNavbar>
+    </>
+  );
+}
+
+export default CustomNavbar;
+
+*/

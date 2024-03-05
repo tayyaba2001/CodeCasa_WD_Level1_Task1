@@ -1,0 +1,15 @@
+
+npm install --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+npm i react-mailchimp-subscribe
+
+
+  git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git branch -M main
+PS F:\Internship_JS_Stopwatch\vite-project> git remote add origin https://github.com/tayyaba2001/PRODIGY_WD_01.git
+PS F:\Internship_JS_Stopwatch\vite-project> git push -u origin main
+> git remote -v
